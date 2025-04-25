@@ -32,10 +32,10 @@ def listen():
         return ""
 
 def listen_and_respond():
-    print("🚀 Say 'Yo Bot' to start...")
+    print("🚀 Say 'Hey Nexi' to start...")
     text = listen()
 
-    if text.startswith("hey Nexus"):
+    if text.startswith("hey nexi"):
         speak_text("Hey! What do you want me to do?")
         print("👂 Waiting for your command...")
         command = listen()
